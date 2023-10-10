@@ -15,12 +15,39 @@ body{
 }
 
 .leftBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 60vw;
     height: 100vh;
     overflow: hidden;
     background-image: url("images/bg-pattern-desktop.svg");
     background-size: cover;
 }
+.logoBox{
+    position: absolute;
+    top: 5%;
+}
+.pBox1{
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.pB1{
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+}
+.pBox2{
+    color: hsl(0, 36%, 70%);
+    font-size: 16px;
+    line-height: 1.5;
+}
+.addressBox{
+    color: hsl(0, 36%, 70%);
+    opacity: 0.5;
+}
+
 .rightBox{
     width: 40vw;
     height: 100vh;
