@@ -86,6 +86,9 @@ input::placeholder{
     z-index: 10;
 }
 .errorMsg{
+    display: none;
+    margin-top: 1rem;
+    margin-left: 1rem;
     color: hsl(0, 36%, 70%);
 }
 
