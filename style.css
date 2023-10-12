@@ -85,6 +85,9 @@ input::placeholder{
     filter: invert(17%) sepia(95%) saturate(4816%) hue-rotate(358deg) brightness(99%) contrast(125%);
     z-index: 10;
 }
+.errorMsg{
+    color: hsl(0, 36%, 70%);
+}
 
 .rightBox{
     width: 40vw;
